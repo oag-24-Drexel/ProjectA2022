@@ -270,20 +270,28 @@
       "oAP" : "\/dev\/content\/hero-1.html",
       "oF" : 0
     },
+    "\/dev\/content\/midheros" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/midheros",
+      "oF" : 0
+    },
     "\/dev\/content\/section1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/section1.html",
       "oF" : 0
     },
-    "\/dev\/content\/What'sTrending.kit" : {
+    "\/dev\/content\/WhatsTrending.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/What'sTrending.html",
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/WhatsTrending.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
