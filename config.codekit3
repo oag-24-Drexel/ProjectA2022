@@ -83,6 +83,36 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/hero\/hero1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/hero\/hero1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/section1\/section1A.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/section1\/section1A.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/section1\/section1B.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/section1\/section1B.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -355,14 +385,6 @@
       "oAP" : "\/imgs\/hero",
       "oF" : 0
     },
-    "\/imgs\/logo" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/imgs\/logo",
-      "oF" : 0
-    },
     "\/imgs\/midhero_1" : {
       "cB" : 0,
       "ft" : 8192,
@@ -394,6 +416,32 @@
       "oA" : 0,
       "oAP" : "\/imgs\/Nike-Air-Jordan-Women’s",
       "oF" : 0
+    },
+    "\/imgs\/section1A.jpg" : {
+      "ft" : 16384,
+      "iS" : 299734,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/section1A.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/section1B.jpg" : {
+      "ft" : 16384,
+      "iS" : 309488,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/section1B.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/imgs\/Travis_Scott" : {
       "cB" : 0,
