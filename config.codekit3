@@ -548,6 +548,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_heroes.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_heroes.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_midheros.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -578,7 +593,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_Search.scss" : {
+    "\/dev\/scss\/sections\/_search.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -587,13 +602,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_Search.css",
+      "oAP" : "\/dev\/scss\/sections\/_search.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_Trending.scss" : {
+    "\/dev\/scss\/sections\/_trending.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -602,7 +617,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_Trending.css",
+      "oAP" : "\/dev\/scss\/sections\/_trending.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

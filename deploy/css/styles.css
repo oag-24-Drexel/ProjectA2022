@@ -352,6 +352,15 @@ template {
 /* =============
     Base
 ============= */
+.css-grid-global {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+}
+.css-grid-global div {
+  grid-area: header;
+}
+
 /* =============
     Typography
 ============= */
@@ -384,4 +393,14 @@ textarea {
 ============= */
 /* =============
     Footer
+============= */
+/* =============
+    heroes
+============= */
+.heroes img {
+  width: 50%;
+}
+
+/* =============
+    trending
 ============= */
