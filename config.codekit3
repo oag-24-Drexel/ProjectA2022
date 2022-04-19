@@ -93,13 +93,15 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero\/.hero.svg.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/.hero.svg.icloud",
-      "oF" : 0
+    "\/deploy\/img\/hero\/hero.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/hero\/hero.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/hero\/midhero_A.svg" : {
       "ft" : 2097152,
@@ -126,6 +128,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/hero\/midhero_C.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/search-light\/search-light.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/search-light\/search-light.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -332,6 +344,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/Search.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/Search.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
