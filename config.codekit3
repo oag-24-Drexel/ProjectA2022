@@ -306,6 +306,14 @@
       "oAP" : "\/dev\/content\/Planning.html",
       "oF" : 0
     },
+    "\/dev\/content\/Search.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Search.html",
+      "oF" : 0
+    },
     "\/dev\/content\/Trending.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -344,14 +352,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/Search.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/Search.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
