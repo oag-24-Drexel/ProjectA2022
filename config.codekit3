@@ -298,12 +298,12 @@
       "oAP" : "\/dev\/content\/midheros.html",
       "oF" : 0
     },
-    "\/dev\/content\/section1.kit" : {
+    "\/dev\/content\/Planning.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/section1.html",
+      "oAP" : "\/dev\/content\/Planning.html",
       "oF" : 0
     },
     "\/dev\/content\/Trending.kit" : {
@@ -350,7 +350,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/Search.html",
       "oF" : 0
     },
