@@ -402,5 +402,12 @@ textarea {
 }
 
 /* =============
+    planning
+============= */
+#planning {
+  border: 1px solid red;
+}
+
+/* =============
     trending
 ============= */
