@@ -93,15 +93,13 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero\/hero.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/hero\/hero.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+    "\/deploy\/img\/hero\/.hero.svg.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/.hero.svg.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/hero\/little.arrow.svg" : {
       "ft" : 2097152,
@@ -533,21 +531,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero-1.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero-1.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/sections\/_heroes.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -558,21 +541,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_heroes.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_midheros.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_midheros.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
