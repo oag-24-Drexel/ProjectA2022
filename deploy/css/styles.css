@@ -352,15 +352,10 @@ template {
 /* =============
     Base
 ============= */
-.css-grid-global {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
+ul {
+  padding: 0;
+  margin: 0;
 }
-.css-grid-global div {
-  grid-area: header;
-}
-
 /* =============
     Typography
 ============= */
