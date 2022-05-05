@@ -397,17 +397,16 @@ textarea {
 /* =============
     heroes
 ============= */
-.heroes img {
-  width: 50%;
+#heroes {
+  border: 1px solid red;
+}
+#heroes #hero-img {
+  width: 100%;
 }
 
 /* =============
     planning
 ============= */
-#planning {
-  border: 1px solid red;
-}
-
 /* =============
     trending
 ============= */

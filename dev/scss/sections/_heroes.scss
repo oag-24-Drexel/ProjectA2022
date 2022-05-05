@@ -2,8 +2,12 @@
     heroes
 ============= */
 
-.heroes{
-    img{
-        width: 50%;
+#heroes{
+
+    border: 1px solid  red;
+
+    #hero-img{
+        width: 100%;
+    
     }
 }
