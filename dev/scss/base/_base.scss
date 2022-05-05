@@ -14,7 +14,7 @@ ul{
 .global-css-grid{
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". global-grid ."
+    grid-template-areas: ". global-grid .";
 
     >div{
         grid-area: global-grid ;

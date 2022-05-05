@@ -93,13 +93,15 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero\/.hero.svg.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/.hero.svg.icloud",
-      "oF" : 0
+    "\/deploy\/img\/hero\/hero.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/hero\/hero.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/hero\/little.arrow.svg" : {
       "ft" : 2097152,

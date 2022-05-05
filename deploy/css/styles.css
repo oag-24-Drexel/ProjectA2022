@@ -362,6 +362,11 @@ ul li {
 
 .global-css-grid {
   display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". global-grid .";
+}
+.global-css-grid > div {
+  grid-area: global-grid;
 }
 
 /* =============
@@ -397,6 +402,13 @@ textarea {
 /* =============
     Footer
 ============= */
+#hero-1 img {
+  width: 100%;
+}
+
+#midheros {
+  grid-area: midheros;
+}
 #midheros ul li img {
   width: 100%;
 }
@@ -410,6 +422,17 @@ textarea {
 /* =============
     planning
 ============= */
+/* =============
+    search
+============= */
+#search > div {
+  display: grid;
+  grid-template-columns: auto 50px;
+}
+#search > div #searchform {
+  width: 100%;
+}
+
 /* =============
     trending
 ============= */
