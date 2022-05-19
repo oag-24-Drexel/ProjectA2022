@@ -3,22 +3,37 @@
 ============= */
 
 #planning{
-    .hero-sub-content{
-        div{
-            display: grid;
-            grid-template-columns: 75% auto;
-
-            section{
-
-            }
-
-            aside{
-
-                img{
-                    width: 100%
-                }
-            }
-        }
-    }
+    
 }
 
+#hero-sub-container{
+
+    display: grid;
+    gap: 24px;
+     
+    @include md{
+        
+        grid-template-columns: 50% auto;
+    }
+
+    @include xxl{
+        grid-template-columns: auto 720px 720px auto;
+        grid-template-areas: ". customized laces .";
+    }
+
+    #customized{
+        @include xxl{
+            grid-area: customized;
+        }
+    }
+
+    #laces{
+        @include xxl{
+            grid-area: laces;
+        }
+    }
+
+    .hero-sub-content{
+       
+    }
+}

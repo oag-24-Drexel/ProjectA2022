@@ -365,15 +365,20 @@ ul li {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". global-grid .";
 }
+@media (min-width: 1440px) {
+  .global-css-grid {
+    grid-template-columns: auto 1440px auto;
+  }
+}
 .global-css-grid > div {
   grid-area: global-grid;
 }
 
-.show-for-desktop {
+.show-for-lg {
   display: none;
 }
 @media (min-width: 1024px) {
-  .show-for-desktop {
+  .show-for-lg {
     display: block;
   }
 }
@@ -429,6 +434,23 @@ textarea {
     grid-template-columns: 50% auto;
   }
 }
+@media (min-width: 1440px) {
+  #hero-1 article {
+    grid-template-columns: auto 720px 720px auto;
+    grid-template-areas: ". hero-airforce hero-price .";
+  }
+}
+@media (min-width: 1440px) {
+  #hero-1 article #hero-airfoce {
+    grid-template-columns: auto 720px 16px;
+  }
+}
+@media (min-width: 1440px) {
+  #hero-1 article #hero-price {
+    grid-template-columns: 16px 720px auto;
+  }
+}
+
 #midheros {
   grid-area: midheros;
 }
@@ -445,14 +467,31 @@ textarea {
 /* =============
     planning
 ============= */
-#planning .hero-sub-content div {
+#hero-sub-container {
   display: grid;
-  grid-template-columns: 75% auto;
+  gap: 24px;
 }
-#planning .hero-sub-content div aside img {
-  width: 100%;
+@media (min-width: 768px) {
+  #hero-sub-container {
+    grid-template-columns: 50% auto;
+  }
 }
-
+@media (min-width: 1440px) {
+  #hero-sub-container {
+    grid-template-columns: auto 720px 720px auto;
+    grid-template-areas: ". customized laces .";
+  }
+}
+@media (min-width: 1440px) {
+  #hero-sub-container #customized {
+    grid-area: customized;
+  }
+}
+@media (min-width: 1440px) {
+  #hero-sub-container #laces {
+    grid-area: laces;
+  }
+}
 /* =============
     search
 ============= */

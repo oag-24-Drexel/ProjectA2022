@@ -10,6 +10,11 @@
             grid-template-columns: 50% auto;
         }
 
+        @include xxl{
+            grid-template-columns: auto 720px 720px auto;
+            grid-template-areas: ". hero-airforce hero-price .";
+        }
+
         #hero-airfoce{
             @include xxl{
 
