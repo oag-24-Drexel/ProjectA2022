@@ -423,7 +423,12 @@ textarea {
 #hero-1 img {
   width: 100%;
 }
-
+@media (min-width: 768px) {
+  #hero-1 article {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
 #midheros {
   grid-area: midheros;
 }

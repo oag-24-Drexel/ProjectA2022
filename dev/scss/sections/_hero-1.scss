@@ -3,6 +3,28 @@
         width: 100%;
     
     }
+    article{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        #hero-airfoce{
+            @include xxl{
+
+                grid-template-columns: auto 720px 16px;
+            }
+        }
+
+        #hero-price{
+            @include xxl{
+
+                grid-template-columns:16px 720px auto;
+            }
+        }
+
+    }
         
 
 }
