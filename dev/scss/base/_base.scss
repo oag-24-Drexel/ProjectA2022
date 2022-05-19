@@ -21,3 +21,19 @@ ul{
         grid-area: global-grid ;
     }
 }
+
+.show-for-desktop{
+    display: none;
+
+    @include lg{
+        display: block;
+    }
+}
+
+.show-for-md{
+    display: none;
+
+    @include md{
+        display: block;
+    }
+}
