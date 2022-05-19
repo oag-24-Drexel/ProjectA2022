@@ -1,3 +1,88 @@
 /* =============
     trending
 ============= */
+
+#trending{
+
+    #new-title{
+
+    }
+
+    article{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". Trending .";
+        }
+
+        @include xxl{
+            grid-template-columns: auto 1440px auto;
+        }
+        ul{
+
+            display: grid;
+            gap: 16px;
+    
+            @include md{
+                grid-area: Trending;
+                grid-template-columns: repeat(4, 25%);
+                grid-template-areas: 
+                "T1 T1 T2 T2"
+                "T3 T3 T4 T4"
+                ". T5 T5 .";
+            }
+
+            @include lg{
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas: 
+                "T1 T1 T2 T2 T3 T3"
+                ". T4 T4 T5 T5.";
+            }
+    
+           #T1{
+            @include md{
+                grid-area: T1;
+            }
+           }
+           
+    
+            #T2{
+                @include md{
+                    grid-area: T2;
+                }
+            }
+            
+    
+            #T3{
+                @include md{
+                    grid-area: T3;
+                }
+            }
+            
+    
+            #T4{
+                @include md{
+                    grid-area: T4;
+                }
+            }
+            
+    
+            #T5{
+                @include md{
+                    grid-area: T5;
+                }
+            }
+            
+    
+    
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+   
+}

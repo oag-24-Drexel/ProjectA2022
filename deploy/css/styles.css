@@ -374,6 +374,15 @@ ul li {
   grid-area: global-grid;
 }
 
+.show-for-md {
+  display: none;
+}
+@media (min-width: 768px) {
+  .show-for-md {
+    display: block;
+  }
+}
+
 .show-for-lg {
   display: none;
 }
@@ -383,11 +392,11 @@ ul li {
   }
 }
 
-.show-for-md {
+.show-for-xl {
   display: none;
 }
-@media (min-width: 768px) {
-  .show-for-md {
+@media (min-width: 1200px) {
+  .show-for-xl {
     display: block;
   }
 }
@@ -454,14 +463,47 @@ textarea {
 #midheros {
   grid-area: midheros;
 }
-#midheros ul li img {
-  width: 100%;
+@media (min-width: 1440px) {
+  #midheros {
+    display: grid;
+    grid-template-columns: auto 1440px auto;
+    grid-template-areas: ". midheros .";
+  }
+}
+@media (min-width: 768px) {
+  #midheros ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #midheros ul {
+    grid-template-columns: 65% auto;
+  }
+}
+@media (min-width: 1200px) {
+  #midheros ul {
+    grid-template-columns: 60% auto;
+    grid-template-areas: "g1 g2" "g1 g3";
+  }
 }
 #midheros ul li img {
   width: 100%;
 }
-#midheros ul li img {
-  width: 100%;
+@media (min-width: 1200px) {
+  #midheros ul #g1 {
+    grid-area: g1;
+  }
+}
+@media (min-width: 1200px) {
+  #midheros ul #g2 {
+    grid-area: g2;
+  }
+}
+@media (min-width: 1200px) {
+  #midheros ul #g3 {
+    grid-area: g3;
+  }
 }
 
 /* =============
@@ -506,3 +548,60 @@ textarea {
 /* =============
     trending
 ============= */
+@media (min-width: 768px) {
+  #trending article {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". Trending .";
+  }
+}
+@media (min-width: 1440px) {
+  #trending article {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#trending article ul {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #trending article ul {
+    grid-area: Trending;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-areas: "T1 T1 T2 T2" "T3 T3 T4 T4" ". T5 T5 .";
+  }
+}
+@media (min-width: 1024px) {
+  #trending article ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "T1 T1 T2 T2 T3 T3" ". T4 T4 T5 T5.";
+  }
+}
+@media (min-width: 768px) {
+  #trending article ul #T1 {
+    grid-area: T1;
+  }
+}
+@media (min-width: 768px) {
+  #trending article ul #T2 {
+    grid-area: T2;
+  }
+}
+@media (min-width: 768px) {
+  #trending article ul #T3 {
+    grid-area: T3;
+  }
+}
+@media (min-width: 768px) {
+  #trending article ul #T4 {
+    grid-area: T4;
+  }
+}
+@media (min-width: 768px) {
+  #trending article ul #T5 {
+    grid-area: T5;
+  }
+}
+#trending article ul li img {
+  width: 100%;
+}

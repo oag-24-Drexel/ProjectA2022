@@ -26,6 +26,16 @@ ul{
     }
 }
 
+
+
+.show-for-md{
+    display: none;
+
+    @include md{
+        display: block;
+    }
+}
+
 .show-for-lg{
     display: none;
 
@@ -34,10 +44,10 @@ ul{
     }
 }
 
-.show-for-md{
+.show-for-xl{
     display: none;
 
-    @include md{
+    @include xl{
         display: block;
     }
 }
