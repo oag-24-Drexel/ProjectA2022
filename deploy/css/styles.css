@@ -444,6 +444,12 @@ textarea {
     grid-template-areas: "locations newsletter" ". follow";
   }
 }
+@media (min-width: 1024px) {
+  #footer > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "locations newsletter follow";
+  }
+}
 @media (min-width: 768px) {
   #footer > div #locations {
     grid-area: locations;
