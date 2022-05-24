@@ -163,11 +163,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero\/little arrow.svg" : {
+    "\/deploy\/img\/hero\/little.arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/hero\/little arrow.svg",
+      "oAP" : "\/deploy\/img\/hero\/little.arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -283,51 +283,51 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/what's trending\/converse.svg" : {
+    "\/deploy\/img\/Trending\/converse.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/what's trending\/converse.svg",
+      "oAP" : "\/deploy\/img\/Trending\/converse.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/what's trending\/Travis_Scott.svg" : {
+    "\/deploy\/img\/Trending\/Travis_Scott.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/what's trending\/Travis_Scott.svg",
+      "oAP" : "\/deploy\/img\/Trending\/Travis_Scott.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/what's trending\/vans.svg" : {
+    "\/deploy\/img\/Trending\/vans.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/what's trending\/vans.svg",
+      "oAP" : "\/deploy\/img\/Trending\/vans.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/what's trending\/Women's_Airforce.svg" : {
+    "\/deploy\/img\/Trending\/Women's_Airforce.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/what's trending\/Women's_Airforce.svg",
+      "oAP" : "\/deploy\/img\/Trending\/Women's_Airforce.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/what's trending\/yeezy.svg" : {
+    "\/deploy\/img\/Trending\/yeezy.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/what's trending\/yeezy.svg",
+      "oAP" : "\/deploy\/img\/Trending\/yeezy.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -588,6 +588,81 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero-1.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero-1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_midheros.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_midheros.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_planning.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_planning.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_search.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_search.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_trending.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_trending.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

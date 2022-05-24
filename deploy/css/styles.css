@@ -434,6 +434,36 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer > div {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #footer > div {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "locations newsletter" ". follow";
+  }
+}
+@media (min-width: 768px) {
+  #footer > div #locations {
+    grid-area: locations;
+  }
+}
+#footer > div #locations ul li section {
+  display: grid;
+  grid-template-columns: 10% auto;
+}
+@media (min-width: 768px) {
+  #footer > div #newsletter {
+    grid-area: newsletter;
+  }
+}
+@media (min-width: 768px) {
+  #footer > div #follow {
+    grid-area: follow;
+  }
+}
+
 #hero-1 img {
   width: 100%;
 }
