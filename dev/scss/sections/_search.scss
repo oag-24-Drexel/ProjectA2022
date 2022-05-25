@@ -7,7 +7,16 @@
 
         display: grid;
         grid-template-columns: auto 50px;
-    
+        
+        form{
+            input{
+                 
+            }
+            button{
+                background-color: var(--dark-grey);
+                border-radius: 3.5px;
+            }
+        }
         #searchform{
             width: 100%;
         }

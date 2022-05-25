@@ -5,6 +5,7 @@ header{
 
   
     background-color: var(--dark-grey);
+    padding: 18px 0 20px;
 
 div{
     
@@ -12,7 +13,20 @@ div{
     section{
         img{
 
+            width: 40px;
+        }
 
+        h1{
+            font-weight: 700;
+            font-size: rem-calc(24);
+
+            @include lg{
+                font-size: rem-calc(36);
+            }
+
+            @include xl{
+                font-size: rem-calc(48);
+            }
         }
     }
 

@@ -404,6 +404,14 @@ ul li {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body h1, body h2, body h3, body h4 {
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -433,6 +441,24 @@ textarea {
 ============= */
 header {
   background-color: var(--dark-grey);
+  padding: 18px 0 20px;
+}
+header div section img {
+  width: 40px;
+}
+header div section h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+@media (min-width: 1024px) {
+  header div section h1 {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  header div section h1 {
+    font-size: 3rem;
+  }
 }
 /* =============
     Footer
@@ -579,6 +605,10 @@ header {
 #search > div {
   display: grid;
   grid-template-columns: auto 50px;
+}
+#search > div form button {
+  background-color: var(--dark-grey);
+  border-radius: 3.5px;
 }
 #search > div #searchform {
   width: 100%;
